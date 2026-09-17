@@ -1,0 +1,48 @@
+# ---- Secrets / local config (NEVER commit) ----
+.mcp.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Local business data ----
+*.xlsx
+*.xls
+*.csv
+
+# ---- Node / Next.js ----
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# ---- Tooling caches ----
+.codex/
+.claude/
+.turbo/
+.eslintcache
+.vercel
+
+# ---- Scratch / local artifacts ----
+scratch-*.mjs
+shots/
+screenshots/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
