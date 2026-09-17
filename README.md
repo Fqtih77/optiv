@@ -56,7 +56,7 @@ ile yürütülen iş akışının web'e taşınmış hâli.
 ### 2. Repoyu klonla
 
 ```bash
-git clone https://github.com/Emrullah0642/optiv.git
+git clone https://github.com/Fqtih77/optiv.git
 cd optiv
 ```
 
@@ -65,7 +65,7 @@ Repo private olduğu için klonlarken GitHub kullanıcı adı + **personal acces
 
 ```bash
 gh auth login
-gh repo clone Emrullah0642/optiv
+gh repo clone Fqtih77/optiv
 ```
 
 ### 3. Frontend klasörüne gir ve paketleri kur
